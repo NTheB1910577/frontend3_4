@@ -5,6 +5,8 @@
     :contact="contact"
     @submit:contact="updateContact"
     @delete:contact="deleteContact"
+    @add:contact="addcontact"
+
     />
     <p>{{ message }}</p>
     </div>
